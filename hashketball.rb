@@ -193,7 +193,7 @@ def big_shoe_rebounds
   shoe_rebounds = 0
   game_hash.each do |team_side, team_info|
     team_info.each do |key, value|
-      puts key
+      puts value
     end
   end
   shoe_rebounds
