@@ -194,7 +194,6 @@ def big_shoe_rebounds
   game_hash.each do |team_side, team_info|
     team_info.each do |key, value|
       if key == :players
-        #puts value["Alan Anderson"][:shoe]
         value.each do |player, stats|
           if stats[:shoe] > biggest_shoe
             biggest_shoe = stats[:shoe]
