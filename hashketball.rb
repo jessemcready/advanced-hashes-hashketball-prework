@@ -205,13 +205,3 @@ def big_shoe_rebounds
   end
   shoe_rebounds
 end
-
-
-
-
-
-
-
-
-
-
