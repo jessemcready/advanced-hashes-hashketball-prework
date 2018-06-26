@@ -196,7 +196,10 @@ def big_shoe_rebounds
       if key == :players
         #puts value["Alan Anderson"][:shoe]
         value.each do |player, stats|
-          puts stats
+          if stats[:shoe] > biggest_shoe
+            biggest_shoe = stats[:shoe]
+            shoe_rebounds = stats[:rebounds]
+          end
         end
       end
     end
