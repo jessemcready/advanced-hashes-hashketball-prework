@@ -194,7 +194,7 @@ def big_shoe_rebounds
   game_hash.each do |team_side, team_info|
     team_info.each do |key, value|
       if key == :players
-        puts value
+        puts value["Alan Anderson"][:shoe]
       end
     end
   end
